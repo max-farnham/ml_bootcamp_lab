@@ -102,7 +102,7 @@ print(graduation.control.value_counts())
 # %%
 # Distribution between two-year and four-year colleges
 print(graduation.level.value_counts())
-# 4-year wtih a 2339 to 1459 advantage over 2-year
+# 4-year with a 2339 to 1459 advantage over 2-year
 
 # %%
 # Distribution between male and female in the placement dataset
@@ -262,12 +262,12 @@ tune_p, test_p = train_test_split(
 # Graduation Dataset:
 # This dataset seems well-suited for predicting graduation rates because 
 # of data regarding enrollment size, financial resources, student aid, and retention.
-# Although, becuase this dataset has 63 total columns, I worry that I was too quick
+# Although, because this dataset has 63 total columns, I worry that I was too quick
 # to remove some of the features that could have been helpful in order to reduce complexity.
 # There is a lot more data in this dataset than the placement dataset and I worry that I 
 # haven't considered all of my options for this dataset as well as the other.
 # I also think predicting a value rather than a binary variable adds a level of complexity 
-# to the predictions in a way where faults in my inferences could cause wildly inacurate results.
+# to the predictions in a way where faults in my inferences could cause wildly inaccurate results.
 
 # Placement Dataset:
 # I think that this dataset is appropriate for predicting placement outcomes 
