@@ -128,8 +128,8 @@ graduation = graduation.dropna(subset=['grad_150_value'])
 
 # %%
 # Separate my features and my target
-y_grad = graduation['grad_150_value'] #preprocessing
-X_grad = graduation.drop(columns=['grad_150_value']) # model target
+y_grad = graduation['grad_150_value'] # model target
+X_grad = graduation.drop(columns=['grad_150_value']) # preprocessing
 
 # %%
 column_list = graduation.columns.tolist()
